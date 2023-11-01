@@ -4,7 +4,7 @@ import {ColorModeContext, useMode} from "./theme";
 import Topbar from "./scenes/global/Topbar";
 import Sidebar from "./scenes/global/Sidebar";
 import Dashboard from "./scenes/dashboard";
-// import Team from "./scenes/team";
+import Team from "./scenes/team";
 // import Invoice from "./scenes/invoice";
 // import Contact from "./scenes/contact";
 // import Bar from "./scenes/bar";
@@ -34,7 +34,7 @@ function App() {
                         <Topbar/>
                         <Routes>
                             <Route path="/" element={<Dashboard />} />
-                            {/*<Route path="/team" element={<Team />} />*/}
+                            <Route path="/team" element={<Team />} />
                             {/*<Route path="/contact" element={<Contact />} />*/}
                             {/*<Route path="/invoice" element={<Invoice />} />*/}
                             {/*<Route path="/bar" element={<Bar />} />*/}
